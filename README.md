@@ -1,4 +1,4 @@
-# getgolo
+# foodyy
 
 A new Flutter project.
 
