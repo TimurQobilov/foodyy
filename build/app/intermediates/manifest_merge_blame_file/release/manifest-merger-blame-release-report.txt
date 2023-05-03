@@ -1,0 +1,149 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.uxper.getgolo"
+4    android:versionCode="4005"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+8-->F:\Flutter Project\foodyy\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->F:\Flutter Project\foodyy\android\app\src\main\AndroidManifest.xml
+10    <!-- Include required permissions for Google Maps API to run. -->
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Timur\.gradle\caches\transforms-3\4774f2ca1dc69ae69ad90707ad0b278c\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+11-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Timur\.gradle\caches\transforms-3\4774f2ca1dc69ae69ad90707ad0b278c\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Timur\.gradle\caches\transforms-3\4774f2ca1dc69ae69ad90707ad0b278c\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
+12-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Timur\.gradle\caches\transforms-3\4774f2ca1dc69ae69ad90707ad0b278c\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:24:22-64
+13
+14    <uses-feature
+14-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Timur\.gradle\caches\transforms-3\4774f2ca1dc69ae69ad90707ad0b278c\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+15        android:glEsVersion="0x00020000"
+15-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Timur\.gradle\caches\transforms-3\4774f2ca1dc69ae69ad90707ad0b278c\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+16        android:required="true" />
+16-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Timur\.gradle\caches\transforms-3\4774f2ca1dc69ae69ad90707ad0b278c\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+17
+18    <queries>
+18-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Timur\.gradle\caches\transforms-3\4774f2ca1dc69ae69ad90707ad0b278c\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+19
+20        <!-- Needs to be explicitly declared on Android R+ -->
+21        <package android:name="com.google.android.apps.maps" />
+21-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Timur\.gradle\caches\transforms-3\4774f2ca1dc69ae69ad90707ad0b278c\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+21-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Timur\.gradle\caches\transforms-3\4774f2ca1dc69ae69ad90707ad0b278c\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+22    </queries>
+23    <!--
+24 io.flutter.app.FlutterApplication is an android.app.Application that
+25         calls FlutterMain.startInitialization(this); in its onCreate method.
+26         In most cases you can leave this as-is, but you if you want to provide
+27         additional functionality it is fine to subclass or reimplement
+28         FlutterApplication and put your custom class here.
+29    -->
+30    <application
+31        android:name="android.app.Application"
+31-->F:\Flutter Project\foodyy\android\app\src\main\AndroidManifest.xml:10:9-42
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.6.0] C:\Users\Timur\.gradle\caches\transforms-3\7f757f98adb158bd318a87efe54bc705\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+33        android:icon="@mipmap/ic_launcher"
+33-->F:\Flutter Project\foodyy\android\app\src\main\AndroidManifest.xml:12:9-43
+34        android:label="Foodyy" >
+34-->F:\Flutter Project\foodyy\android\app\src\main\AndroidManifest.xml:11:9-31
+35        <activity
+35-->F:\Flutter Project\foodyy\android\app\src\main\AndroidManifest.xml:13:9-31:20
+36            android:name="com.example.getgolo.MainActivity"
+36-->F:\Flutter Project\foodyy\android\app\src\main\AndroidManifest.xml:14:13-41
+37            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+37-->F:\Flutter Project\foodyy\android\app\src\main\AndroidManifest.xml:17:13-144
+38            android:hardwareAccelerated="true"
+38-->F:\Flutter Project\foodyy\android\app\src\main\AndroidManifest.xml:18:13-47
+39            android:launchMode="singleTop"
+39-->F:\Flutter Project\foodyy\android\app\src\main\AndroidManifest.xml:15:13-43
+40            android:theme="@style/LaunchTheme"
+40-->F:\Flutter Project\foodyy\android\app\src\main\AndroidManifest.xml:16:13-47
+41            android:windowSoftInputMode="adjustResize" >
+41-->F:\Flutter Project\foodyy\android\app\src\main\AndroidManifest.xml:19:13-55
+42
+43            <!--
+44                 This keeps the window background of the activity showing
+45                 until Flutter renders its first frame. It can be removed if
+46                 there is no splash screen (such as the default splash screen
+47                 defined in @style/LaunchTheme).
+48            -->
+49            <meta-data
+49-->F:\Flutter Project\foodyy\android\app\src\main\AndroidManifest.xml:24:13-26:40
+50                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+50-->F:\Flutter Project\foodyy\android\app\src\main\AndroidManifest.xml:25:17-82
+51                android:value="true" />
+51-->F:\Flutter Project\foodyy\android\app\src\main\AndroidManifest.xml:26:17-37
+52
+53            <intent-filter>
+53-->F:\Flutter Project\foodyy\android\app\src\main\AndroidManifest.xml:27:13-30:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->F:\Flutter Project\foodyy\android\app\src\main\AndroidManifest.xml:28:17-68
+54-->F:\Flutter Project\foodyy\android\app\src\main\AndroidManifest.xml:28:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->F:\Flutter Project\foodyy\android\app\src\main\AndroidManifest.xml:29:17-76
+56-->F:\Flutter Project\foodyy\android\app\src\main\AndroidManifest.xml:29:27-74
+57            </intent-filter>
+58        </activity>
+59
+60        <meta-data
+60-->F:\Flutter Project\foodyy\android\app\src\main\AndroidManifest.xml:32:9-34:70
+61            android:name="com.google.android.geo.API_KEY"
+61-->F:\Flutter Project\foodyy\android\app\src\main\AndroidManifest.xml:33:13-58
+62            android:value="AIzaSyCo0AqB1UcrApzM5UaKnph1BIiNOs3O6_c" />
+62-->F:\Flutter Project\foodyy\android\app\src\main\AndroidManifest.xml:34:13-68
+63        <meta-data
+63-->F:\Flutter Project\foodyy\android\app\src\main\AndroidManifest.xml:35:9-37:33
+64            android:name="flutterEmbedding"
+64-->F:\Flutter Project\foodyy\android\app\src\main\AndroidManifest.xml:36:13-44
+65            android:value="2" />
+65-->F:\Flutter Project\foodyy\android\app\src\main\AndroidManifest.xml:37:13-30
+66
+67        <activity
+67-->[:url_launcher_android] F:\Flutter Project\foodyy\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+68            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+68-->[:url_launcher_android] F:\Flutter Project\foodyy\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+69            android:exported="false"
+69-->[:url_launcher_android] F:\Flutter Project\foodyy\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+70            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+70-->[:url_launcher_android] F:\Flutter Project\foodyy\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+71
+72        <uses-library
+72-->[androidx.window:window:1.0.0-beta04] C:\Users\Timur\.gradle\caches\transforms-3\9438a55d022afadd487f4d4d3c9a7008\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+73            android:name="androidx.window.extensions"
+73-->[androidx.window:window:1.0.0-beta04] C:\Users\Timur\.gradle\caches\transforms-3\9438a55d022afadd487f4d4d3c9a7008\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+74            android:required="false" />
+74-->[androidx.window:window:1.0.0-beta04] C:\Users\Timur\.gradle\caches\transforms-3\9438a55d022afadd487f4d4d3c9a7008\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+75        <uses-library
+75-->[androidx.window:window:1.0.0-beta04] C:\Users\Timur\.gradle\caches\transforms-3\9438a55d022afadd487f4d4d3c9a7008\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+76            android:name="androidx.window.sidecar"
+76-->[androidx.window:window:1.0.0-beta04] C:\Users\Timur\.gradle\caches\transforms-3\9438a55d022afadd487f4d4d3c9a7008\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+77            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+77-->[androidx.window:window:1.0.0-beta04] C:\Users\Timur\.gradle\caches\transforms-3\9438a55d022afadd487f4d4d3c9a7008\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+78        <uses-library
+78-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Timur\.gradle\caches\transforms-3\4774f2ca1dc69ae69ad90707ad0b278c\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+79            android:name="org.apache.http.legacy"
+79-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Timur\.gradle\caches\transforms-3\4774f2ca1dc69ae69ad90707ad0b278c\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+80            android:required="false" />
+80-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Timur\.gradle\caches\transforms-3\4774f2ca1dc69ae69ad90707ad0b278c\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+81
+82        <activity
+82-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Timur\.gradle\caches\transforms-3\9205571ed6df4ffb4ba21ca819b1c3a0\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+83            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+83-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Timur\.gradle\caches\transforms-3\9205571ed6df4ffb4ba21ca819b1c3a0\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+84            android:exported="false"
+84-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Timur\.gradle\caches\transforms-3\9205571ed6df4ffb4ba21ca819b1c3a0\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+85            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+85-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Timur\.gradle\caches\transforms-3\9205571ed6df4ffb4ba21ca819b1c3a0\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+86
+87        <meta-data
+87-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Timur\.gradle\caches\transforms-3\ea57cc2886c1bb79240f03bec93d1d8e\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+88            android:name="com.google.android.gms.version"
+88-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Timur\.gradle\caches\transforms-3\ea57cc2886c1bb79240f03bec93d1d8e\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+89            android:value="@integer/google_play_services_version" />
+89-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Timur\.gradle\caches\transforms-3\ea57cc2886c1bb79240f03bec93d1d8e\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+90    </application>
+91
+92</manifest>

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "F:\\Flutter Project\\foodyy\\build\\google_maps_flutter_android\\intermediates\\merged_res\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Timur\\.gradle\\caches\\transforms-3\\7f757f98adb158bd318a87efe54bc705\\transformed\\core-1.6.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "F:\\Flutter Project\\foodyy\\build\\google_maps_flutter_android\\intermediates\\merged_res\\release\\layout\\notification_action.xml",
+        "source": "C:\\Users\\Timur\\.gradle\\caches\\transforms-3\\7f757f98adb158bd318a87efe54bc705\\transformed\\core-1.6.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "F:\\Flutter Project\\foodyy\\build\\google_maps_flutter_android\\intermediates\\merged_res\\release\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Timur\\.gradle\\caches\\transforms-3\\7f757f98adb158bd318a87efe54bc705\\transformed\\core-1.6.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "F:\\Flutter Project\\foodyy\\build\\google_maps_flutter_android\\intermediates\\merged_res\\release\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Timur\\.gradle\\caches\\transforms-3\\7f757f98adb158bd318a87efe54bc705\\transformed\\core-1.6.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "F:\\Flutter Project\\foodyy\\build\\google_maps_flutter_android\\intermediates\\merged_res\\release\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\Timur\\.gradle\\caches\\transforms-3\\7f757f98adb158bd318a87efe54bc705\\transformed\\core-1.6.0\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "F:\\Flutter Project\\foodyy\\build\\google_maps_flutter_android\\intermediates\\merged_res\\release\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Timur\\.gradle\\caches\\transforms-3\\7f757f98adb158bd318a87efe54bc705\\transformed\\core-1.6.0\\res\\layout\\notification_action_tombstone.xml"
+    }
+]
